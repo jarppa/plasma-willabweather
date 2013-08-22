@@ -1,0 +1,7 @@
+#!/bin/sh
+
+mkdir build
+cd build
+cmake --release -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` ../
+make
+echo "Now cd build;  run sudo make install "

@@ -1,0 +1,19 @@
+
+Willab Weather Plasmoid
+***********************************************
+
+This KDE4 plasmoid displays weather data from Willab on your desktop.
+
+This Software is published under the terms of the GNU GPL V3 and comes
+without any warranty. Feel free to change or distribute this software.
+
+To compile and install this plasmoid do the following in the folder where you have extracted the source package:
+# mkdir build
+# cd build
+# cmake --release -DCMAKE_INSTALL_PREFIX=`kde-config --prefix` ../
+# make
+# sudo make install
+
+If you have any dependency problems see
+sudo apt-get build-dep kdeplasma-addons
+

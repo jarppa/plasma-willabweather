@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Willab Weather
+Comment=A simple weather widget for plasma
+Icon=weather-clear
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+ 
+X-KDE-Library=plasma_applet_willabweather
+X-KDE-PluginInfo-Author=Jari Tervonen
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=willabweather
+X-KDE-PluginInfo-Version=1.01
+X-KDE-PluginInfo-Website=
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true 
+
+X-PlasmoidCategory=Environment and Weather
